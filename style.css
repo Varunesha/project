@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+ background-image: url(1.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 100vh;
+}
+.varun{
+   display: flex; 
+   margin-left: 38%;
+  
+}
+
+.hinata{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 35px;
+    margin: 15px;
+    align-items: center;
+    margin-top: 30%;
+    font-family: sans-serif;
+}
+
+
+
+#snowflakeContainer {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.snowflake {
+	padding-left: 15px;
+	font-family: Times, Georgia, serif;
+	font-size: 14em;
+	line-height: 24px;
+	position: fixed;
+	color: #ffffff;
+	user-select: none;
+	z-index: 1000;
+}
+.snowflake:hover {
+	cursor: default;
+}
+@media screen and (max-width: 767px)
+{
+    .varun{
+       margin-left: 13%;
+       
+    }
+    .hinata{
+        font-size: 20px;
+    }
+}
